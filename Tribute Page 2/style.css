@@ -1,0 +1,129 @@
+body {
+    background: radial-gradient(circle at top left, #c3eb9e 50%, #f2a900 50%);
+    color: #000;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+header h1 span {
+    color: #f2a900;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav a:hover {
+    background-color: #f2a900;
+}
+
+.main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+section img {
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+section p {
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+section ul {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 20px;
+}
+
+section li {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
+/* Scroll buttons */
+.scroll-buttons {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+  }
+  
+  .scroll-up-btn,
+  .scroll-down-btn {
+    display: block;
+    width: 60px;
+    height: 50px;
+    background-color: #333;
+    color: #bd8989;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 40px;
+    border-radius: 50%;
+    opacity: 0.7;
+    transition: opacity 0.2s ease-in-out;
+  }
+  
+  .scroll-up-btn:hover,
+  .scroll-down-btn:hover {
+    opacity: 1;
+  }
+  
+  .scroll-up-btn i,
+  .scroll-down-btn i {
+    margin-top: 8px;
+  }
+  
+  .scroll-up-btn {
+    margin-bottom: 20px;
+  }
+  
+  .scroll-down-btn {
+    margin-top: 20px;
+  }
+  
